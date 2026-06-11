@@ -54,10 +54,6 @@ A composable, non-custodial payments stack on top of Circle's Stablecoin Kit, fi
 
 **Tideline (ArcScope)** — Stablecoin-flow intelligence — the first Arc-native payments analytics platform. A Rust enrichment service (`arc-stablecoin-stream`) adds semantic categorization on top of commodity event ingestion (Goldsky / Envio), stored in Postgres / TimescaleDB and surfaced in a Next.js dashboard. Incumbents like Dune and Nansen treat Arc as generic EVM; this treats it as a payment network.
 
-**ArcNS** — An ENS-style naming service for Arc — human-readable `.arc` names with forward and reverse resolution on a three-layer registry / resolver architecture. Live at arcns-app.vercel.app.
-
-**UPay / Tella** — A WhatsApp-based stablecoin payments app built on Circle Developer-Controlled Wallets, aimed at consumer payments and remittances (tella.cash). It is the built-in dogfood consumer of Relay.
-
 **create-arc-app** — A CLI scaffolder (`npx create-arc-app`) that collapses Arc dapp setup — chain config, wallet wiring, USDC-as-native-gas handling — into one command, with selectable Next.js or Vite bases and optional Foundry contracts, wrapping Circle's Arc App Kit.
 
 **B2B Invoicing** — A standalone business-invoicing product with on-chain settlement, deliberately decoupled from Relay by design so the two can evolve independently.
